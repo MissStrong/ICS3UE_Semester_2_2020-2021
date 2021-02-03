@@ -16,7 +16,7 @@ The above image is an example of the Hello World program in Python using repl.it
 
 ### print()
 
-The most common function for printing in Python is `print()`. Anything you put inside the parentheses gets printed. If you are printing text, the text must be enclosed in double quotation marks `"`. If you want to print more than one thing with spaces in between, you can separate them with commas.
+The most common function for printing in Python is `print()`. Anything you put inside the parentheses gets printed. If you are printing text, the text must be enclosed in double quotation marks `"`, which makes it a **string**. If you want to print more than one thing with spaces in between, you can separate them with commas.
 
 ``` python
 print(Hello World!) # this won't work because the quotation marks are missing
