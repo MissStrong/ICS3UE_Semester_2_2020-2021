@@ -13,9 +13,9 @@ Here is an example of the classic "Hello World" program, in which `Hello World` 
 
 ![](../../Images/Hello_World_Python.png)
 
-#### Comments
+### Comments
 
-Comments are used to write words in your program to help explain what is going on. There are two types of comments: single-line and multi-line. 
+Comments are used to write words in your program to help explain what is going on to someone reading your code. There are two types of comments: single-line and multi-line. 
 
 * **Multi-line comments** take up multiple lines of code. In Python, they start with `'''` and end with `'''`.
 
