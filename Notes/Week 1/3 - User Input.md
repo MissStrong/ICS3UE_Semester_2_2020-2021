@@ -28,4 +28,4 @@ These three lines are the prompts. Each input is stored into a variable, `name`,
 print(name, number, colour)
 ```
 
-This line prints the three responses that were stored into the three variables. Each response is printed with one space between.
+This line prints the three responses that were stored into the three variables. Each response is printed with one space in between.
