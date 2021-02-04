@@ -24,7 +24,6 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Sets
 * List Comprehension
 * Environmental Sustainability
-
 * Binary and Hexadecimal
 * ASCII and Unicode
 * Computer Components
