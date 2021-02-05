@@ -38,7 +38,7 @@ print(s[-4])  # prints the fourth last character, b
 
 ### String Slicing
 
-A **substring** is basically a smaller string inside of a larger string. For example, `"def"` is a substring of `"abcdefgh"`.
+A **substring** is a smaller string contained in a larger string. For example, `"def"` is a substring of `"abcdefgh"`.
 
 We can use **string slicing** to extract a substring. The notation for slicing is similar to indexing, except we specify a **start index** and an **end index** separated by a colon. The character at the end index is *not included* in the substring.
 
