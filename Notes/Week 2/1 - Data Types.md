@@ -8,7 +8,7 @@
 
 * The **scope** of a variable refers to where and when variable can be used.
 
-* A **local variable** is a variable that is declared within a local scope. It may be accessed and modified only within the context (e.g. a function or a loop) it was declared in. It is lost when its context is completed.
+* A **local variable** is a variable that is declared within a local scope. It may be accessed and modified only within the context (e.g. the body of a conditional structure) it was declared in. It is lost when its context is completed.
 
 * A **global variable** is a variable that is declared within a global scope. It may be accesssed (but not necessarily modified) throughout the entire program.
 
