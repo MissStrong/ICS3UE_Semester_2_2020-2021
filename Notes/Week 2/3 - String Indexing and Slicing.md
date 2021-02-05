@@ -50,7 +50,7 @@ print(s[3:6])  # prints def
 print(s[4:len(s)])  # prints efgh
 ```
 
-If we leave the starting index empty, the default value is `0`. If we leave the ending index empty, the default value is the length of the string.
+If we leave the start index empty, the default value is `0`. If we leave the end index empty, the default value is the length of the string.
 
 ```python
 s = "abcdefgh"
