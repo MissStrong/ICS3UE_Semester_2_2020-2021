@@ -1,6 +1,6 @@
 ## Grade 11, University Preparation
 
-Disclaimer: The following is a tentative schedule. Upcoming activities might be updated, although current activities will be accurate.
+Disclaimer: The following is a tentative schedule. Upcoming activities might be updated, although current activities should be accurate.
 
 ### Week 1
 
