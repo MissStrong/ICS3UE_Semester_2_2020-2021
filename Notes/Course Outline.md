@@ -2,27 +2,36 @@
 
 Disclaimer: The following is a tentative schedule. Upcoming activities might be updated, although current activities will be accurate.
 
-### Weeks 1-2
+### Week 1
 
 * Ethical Computer Use
 * Print Statements
 * User Input
+
+### Week 2
+
 * Data Types
 * Conditionals
 
-### Weeks 3-5
+### Week 3
 
 * Functions
-* Lists and Tuples
 * Loops
+
+### Week 4
+
+* Lists and Tuples
 * Python Programs with Multiple Python Files
+
+### Week 5
+
 * Emerging Technologies
+* List Comprehensions
 
 ### Weeks 6-8
 
 * Dictionaries
 * Sets
-* List Comprehension
 * Environmental Sustainability
 * Binary and Hexadecimal
 * ASCII and Unicode
