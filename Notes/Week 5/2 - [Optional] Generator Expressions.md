@@ -31,16 +31,16 @@ The `min()` and `max()` functions find the first/last item when the items are so
 min(item for item in a_list)
 ```
 
-Instead, we can do this to find the string with the smallest length.
+Instead, we can do this to find the string with the smallest length:
 
 ```python
 min(len[item] for item in a_list)
 ```
 
-An alternative would be to use the `key` parameter with `min()` without using a generator expression.
+An alternative would be to use the `key` parameter with `min()` without using a generator expression:
 
 ```python
-min(a_list, key=len)
+min(a_list, key = len)
 ```
 
 Consider a program that finds the largest value in a dictionary, `d`.
