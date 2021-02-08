@@ -17,6 +17,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 * Functions
 * Loops
+* Documentation
 
 ### Week 4
 
@@ -48,7 +49,6 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Computer Science Research
 * Scope
 * Aliasing
-* Documentation
 * Testing
 
 ### Weeks 10-12
