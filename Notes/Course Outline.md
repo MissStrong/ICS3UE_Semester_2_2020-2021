@@ -22,6 +22,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 ### Week 4
 
 * Lists and Tuples
+* Scope
 * Python Programs with Multiple Python Files
 
 ### Week 5
@@ -47,7 +48,6 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 ### Week 9
 
 * Computer Science Research
-* Scope
 * Aliasing
 * Testing
 
