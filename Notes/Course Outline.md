@@ -28,31 +28,37 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Emerging Technologies
 * List Comprehensions
 
-### Weeks 6-8
+### Week 6
 
 * Dictionaries
 * Sets
-* Environmental Sustainability
+
+### Week 7
+
 * Binary and Hexadecimal
 * ASCII and Unicode
+
+### Week 8
+
 * Computer Components
+* Environmental Sustainability
 
-### Weeks 9-10
+### Week 9
 
+* Computer Science Research
 * Scope
 * Aliasing
 * Documentation
 * Testing
-* Eval and Exec
+
+### Weeks 10-12
+
 * Exception Handling
-* Computer Science Research
-
-### Weeks 11-13
-
 * I/O with Text Files
 * Object-Oriented Programming
+* Eval and Exec
 
-### Weeks 14-16
+### Weeks 13-15
 
 * Post-Secondary Opportunities
 * PyGame 
@@ -61,7 +67,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
   * Text and Fonts
   * Keyboard and Mouse Interactions
 
-### Weeks 17-20
+### Weeks 16-20
 
 * Culminating Task
 
