@@ -52,7 +52,6 @@ groceries = ["bread", "milk", "potato"]
 print(groceries.index("milk"))  # prints 1
 ```
 
- 
 
 ### Adding or Removing Items to/from a List
 
@@ -70,8 +69,6 @@ groceries.remove("milk")
 print(groceries)  # prints ["bread", "potato", "banana"]
 ```
 
- 
-
 If we want to add an item to a particular index, we can use `insert()`.
 
 ```python
@@ -82,8 +79,6 @@ groceries.insert(0, "cereal")  # this puts "cereal" at index 0 and pushes the ot
 print(groceries)  # prints ["milk", "potato"]
 ```
 
-
-
 If we want to remove an item at a particular index, we can use `pop()`.
 
 ```python
@@ -93,8 +88,6 @@ groceries.pop(0)  # this removes the item at index 0, which is "bread"
 
 print(groceries)  # prints ["milk", "potato"]
 ```
-
- 
 
 ### Combining Lists
 
@@ -109,7 +102,6 @@ groceries.extend(more_groceries)
 print(groceries)  # prints ["bread", "milk", "potato", "banana", "cereal"]
 ```
 
- 
 
 ### Searching Through Lists
 
@@ -118,9 +110,8 @@ We can use a *for* loop to iterate through a list by looking at each item one by
 ```python
 groceries = ["bread", "milk", "potato"]
   
-for item in groceries {
+for item in groceries:
   print(item)  # prints each item in the list
-}
 ```
 
 If we wanted to print the indices (plural of index) too, we could use the `range()` function. We can use the `len()` function to get the **len**gth of a list.
@@ -128,9 +119,8 @@ If we wanted to print the indices (plural of index) too, we could use the `range
 ```python
 groceries = ["bread", "milk", "potato"]
   
-for index in range(len(groceries)) {
+for index in range(len(groceries)):
   print(index, groceries[index])  # prints each index in the list and its corresponding item
-}
 ```
 
  
@@ -147,8 +137,6 @@ groceries.sort()
 print(groceries)  # prints ["banana", "bread", "cereal", milk", "potato"]
 ```
 
-
-
 We can also reverse the items in a list using `reverse()`. If we want the items to be in reverse alphanumeric order, we can use `sort()` followed by `reverse()`.
 
 ```python
@@ -159,11 +147,8 @@ groceries.sort().reverse()
 print(groceries)  # prints ["potato", "milk", "cereal", "bread", "banana"]
 ```
 
-
-
 N.B.: When you sort a list, the characters are sorted based on the order of their individual [ASCII](http://www.asciitable.com) characters. In the ASCII chart, all upper case letters come before all lower case letters, so your items may not be in alphabetical order if some begin with a lower case letter and others begin with an upper case letter.
 
-  
 
 ### Tuples
 
