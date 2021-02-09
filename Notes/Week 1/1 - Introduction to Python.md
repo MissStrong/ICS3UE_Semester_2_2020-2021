@@ -4,7 +4,7 @@ Python is a commonly used beginner programming language since it is considerd to
 
 Python is also a relatively powerful language. It is used to support YouTube, Google, Instagram, Reddit, and other popular software programs.
 
-Python has consistently been in the top three most popular programming langauges over the past two decades. Other languages that have been consistantnly popular include Java, C, and Javascript.
+Python has consistently been in the top three most popular programming langauges over the past two decades. Other languages that have been consistantly popular include Java, C, and Javascript.
 
 
 ### Python Code
