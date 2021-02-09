@@ -62,7 +62,7 @@ Functions in computer science may look different to functions in math, but they 
 
 |                                            | Math Example                                         | Python Example                                               |
 | ------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------------------ |
-| Function                                   | f(x, y, z) = 4x + 2y - 1/z                           | `def foo(x, y, z): `<br></br>&nbsp;&nbsp;&nbsp;&nbsp;`return 4*x + 2*y - 1/z;` |
+| Function                                   | f(x, y, z) = 4x + 2y - 1/z                           | `def foo(x, y, z): `<br></br>&nbsp;&nbsp;&nbsp;&nbsp;`return 4*x + 2*y - 1/z` |
 | Function name                              | *f*                                                  | `foo`                                                        |
 | Parameters (Independent Variables)         | *x*, *y*, *z*                                        | `x`, `y`, `z`                                                |
 | Return Value (Value of Dependent Variable) | *4x + 2y - 1/z*                                      | `4*x + 2*y - 1/z`                                            |
