@@ -4,7 +4,7 @@ Python is a commonly used beginner programming language since it is considerd to
 
 Python is also a relatively powerful language. It is used to support YouTube, Google, Instagram, Reddit, and other popular software programs.
 
-Python has consistently been in the top three most popular programming langauges over the past two decades. Other languages that have been consistemtnly popular include Java, C, and Javascript.
+Python has consistently been in the top three most popular programming langauges over the past two decades. Other languages that have been consistantnly popular include Java, C, and Javascript.
 
 
 ### Python Code
@@ -17,7 +17,7 @@ Here is an example of the classic "Hello World" program, in which `Hello World` 
 
 Comments are used to write words in your program to help explain what is going on to someone reading your code. There are two types of comments: single-line and multi-line. 
 
-* **Multi-line comments** take up multiple lines of code. In Python, they start with `'''` and end with `'''`.
+* **Multi-line comments** take up multiple lines of code. In Python, they start with `'''` or `"""` and end the same way.
 
 * **Single-line comments** take up only one line of code or one partial line of code. In Python, they start with `#`. These types of comments are typically used to provide a brief decription of what's going on in a particular line of code.
 
