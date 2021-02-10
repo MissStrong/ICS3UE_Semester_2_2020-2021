@@ -47,18 +47,18 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Week 9
 
-* Computer Science Research
-
-### Week 10
-
 * I/O with Text Files
 * Aliasing
 
-### Week 11
+### Week 10
 
 * Exception Handling
 * Eval and Exec
 * Testing
+
+### Week 11
+
+* Computer Science Research
 
 ### Week 12
 
