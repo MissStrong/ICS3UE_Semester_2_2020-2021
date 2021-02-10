@@ -14,7 +14,7 @@ print(hex(id(x))  # prints the address where 3 is stored (e.g. 0x7fdc369ef720)
 
 ### Mutable Versus Immutable Variables
 
-The four primitive data types in Python: `int`, `float`, `bool`, and `str`. These are **immutable** data types, meaning these variables *move addresses* when they are given a new value.
+The four primitive data types in Python are `int`, `float`, `bool`, and `str`. These are **immutable** data types, meaning these variables *move addresses* when they are given a new value.
 
 ```python
 x = 3
@@ -36,11 +36,11 @@ my_list.append(3)
 print(hex(id(my_list))) # prints the address where [1, 2, 3] is stored (e.g. 0x7efdf846d600)
 ```
 
-Notice that the address of `my_list` did not change when the list was updated. This behaviour happens with all non-primitive data types in Python.
+Notice that the address of `my_list` did not change when the list was updated. 
 
 ### Aliasing
 
-**Aliasing** occurs when when two variable names point to the same location in memory. In other words, they can be used interchangeably. This can be an issue with non-primitive data types.
+**Aliasing** occurs when when two variable names point to the same location in memory. In other words, they can be used interchangeably. This can be an issue with mutable data types.
 
 ```python
 list_1 = [1, 2]
@@ -63,4 +63,3 @@ list_1.append(3)
 print(list_1) # prints [1, 2, 3]
 print(list_2) # prints [1, 2], not [1, 2, 3]
 ```
-
