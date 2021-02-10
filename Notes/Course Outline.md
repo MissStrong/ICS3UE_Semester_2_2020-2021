@@ -49,34 +49,34 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 * Computer Science Research
 
-### Weeks 10
+### Week 10
 
 * I/O with Text Files
 * Aliasing
 
-### Weeks 11
+### Week 11
 
 * Exception Handling
 * Eval and Exec
 * Testing
 
-### Weeks 12
+### Week 12
 
 * Object-Oriented Programming
 
-### Weeks 13
+### Week 13
 
 * Post-Secondary Opportunities
 * PyGame 
   * Colours and Shapes
 
-### Weeks 14
+### Week 14
 
 * PyGame 
   * Images
   * Text and Fonts
 
-### Weeks 15
+### Week 15
 
 * PyGame 
   * Keyboard Interactions
