@@ -17,7 +17,18 @@ def highest_num(num_list):
   return num
 ```
 
-The problem with the function above is that it ignores the possibility that the list of number is empty. The function will raise an error on the second line of the function if we call `highest_num([])`. We often need to write a conditional at the beginning of a function to handle these kinds of cases.
+The problem with the function above is that it ignores the possibility that the list of numbers is empty. The function will raise an error on the second line of the function if we call `highest_num([])`. We often need to write a conditional at the beginning of a function to handle these kinds of cases.
+
+```python
+def highest_num(num_list):
+  if len(num_list) == 0:  # This handles the case when the list is empty
+    return None
+  highest_num_so_far = num_list[0]
+  for num in num_list:
+    if num > highest_num_so_far:
+      highest_num_so_far = num
+  return num
+```
 
 
 ### Edge Cases
@@ -36,10 +47,15 @@ These mistakes can also happen when we mix up `<` and `<=`.
 
 ```python
 def is_between_0_and_10(n):
-  return(0 < n and n < 10)
+  return 0 < n and n < 10
 ```
 
 Depending on whether we wanted to include the numbers 0 and 10, this program may not do what we want it to. If we want to include 0 and 10, we would want to change `<` to `<=` (which is equivalent to ≤).
+
+```python
+def is_between_0_and_10(n):
+  return 0 <= n and n <= 10
+```
 
 ### Blackbox and Whitebox Testing
 
