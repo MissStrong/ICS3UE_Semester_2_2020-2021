@@ -1,6 +1,5 @@
 
-
-## Pygame
+## Note – Pygame
 
 Pygame is a set of custom modules that allows us to display graphics in a window. It was created independently of the inventor of Python. It came out approximately 10 years after Python was first created.
 
