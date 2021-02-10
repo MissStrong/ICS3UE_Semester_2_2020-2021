@@ -1,4 +1,4 @@
-## Colours and Shapes in Pygame
+## Note – Colours and Shapes in Pygame
 
 ### RGB Values
 
