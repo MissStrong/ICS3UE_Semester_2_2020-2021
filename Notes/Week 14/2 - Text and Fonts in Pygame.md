@@ -1,4 +1,4 @@
-### Text and Fonts in Pygame
+### Note – Text and Fonts in Pygame
 
 When we put text onto a graphic in Pygame, there are several things we have to decide:
 
