@@ -1,4 +1,4 @@
-## Images in Pygame
+## Note – Images in Pygame
 
 We can import any image in a pygame program as long as it's in a common file format such as PNG, JP(E)G or GIF.
 
