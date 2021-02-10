@@ -6,7 +6,7 @@ When we test a program to check whether it works, we should consider all the pos
 
 ### Base Cases
 
-**Base cases** are the simplest cases. They often include empty string, empty lists, and the number 0. These can often go wrong because we might assume that a list has at least one item, or a string has at least one character.
+**Base cases** are the simplest cases. They often include empty string, empty lists, and the number 0. These can often go wrong because we might assume that a list has at least one item or a string has at least one character.
 
 ```python
 def highest_num(num_list):
