@@ -1,4 +1,4 @@
-### Mouse and Keyboard Interactions in Pygame
+### Note – Mouse and Keyboard Interactions in Pygame
 
 In Pygame, we can create programs that involve mouse and keyboard interactions. We can control what happens on the screen with our mouse and keyboard. 
 
