@@ -26,9 +26,9 @@ def divide_three_ints(a, b, c):
       print("Error. C cannot be zero.")
 ```
 
-The content in the `try` block is run first. It tries to run the lines in the block; if an exception occurs, the exception is "thrown" and the rest of the block does not run. 
+The content in the `try` block is run first. It tries to run the lines in the block; if an exception occurs, the exception is raised and the rest of the block does not run. 
 
-The content in the `except` block runs only when an exception such as `ZeroDivisionError` has been thrown. It "catches" the exception and prevents the program from abruptly terminating and giving you a red error message.
+The content in the `except` block runs only when an exception such as `ZeroDivisionError` has been raised. It "catches" the exception and prevents the program from abruptly terminating and giving you a red error message.
 
 If we want an `except` block to catch only a specific type of exception, we can do that like this:
 
