@@ -75,7 +75,7 @@ We can raise an exception at any time using the keyword `raise`.
 ```python
 user_input = input("Enter a positive integer: ")
 
-if type(user_input) !=  int:
+if type(user_input) != int:
   raise Exception("Your input was not an integer!")
 elif user_input < 0:
   raise Exception("Your input was not a positive number!")
