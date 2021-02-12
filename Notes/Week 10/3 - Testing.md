@@ -59,8 +59,8 @@ def is_between_0_and_10(n):
 
 ### Blackbox and Whitebox Testing
 
-**Blackbox Testing** refers to testing a program without looking at the code. We just look at what it's supposed to do and design tests around that.
+**Blackbox testing** refers to testing a program without looking at the code. We just look at what it's supposed to do and design tests around that.
 
-**Whitebox Testing** refers to testing a program based on how it was implemented. We consider the design of the algorithm and design tests that we think might go wrong based on the algorithm.
+**Whitebox testing** refers to testing a program based on how it was implemented. We consider the design of the algorithm and design tests that we think might go wrong based on the algorithm.
 
 Both blackbox testing and whitebox testing can be useful for both manual and automated tests.
