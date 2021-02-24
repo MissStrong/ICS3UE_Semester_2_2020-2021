@@ -158,6 +158,12 @@ A tuple (pronounced "too-pull") is also a data structure that stores an ordered 
 coordinate = (4, -5)
 ```
 
+To create a tuple with one item in it, we put a comma after the item to indicate that it's a tuple and not just a value enclosed in brackets.
+
+```python
+t = (1,)  # creates a tuple called t with just 1 in it
+```
+
 We can use square brackets to get an item of a tuple at a particular index.
 
 ```python
