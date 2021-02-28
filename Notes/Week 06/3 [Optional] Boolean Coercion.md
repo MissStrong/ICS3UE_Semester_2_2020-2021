@@ -13,7 +13,7 @@ num = int("6") # this changes the string "6" into the integer 6
 total = str(6) # this changes the integer 6 into the string "6"
 ```
 
-Implicit conversion is also known as **coercion**. In Python, coersion can happen when you perform an operation or function on two values that belong to different data types when they should be the same data type.
+Implicit conversion is also known as **coercion**. In Python, coercion can happen when you perform an operation or function on two values that belong to different data types when they should be the same data type.
 
 ```python
 total = 4 + 5.3 # 4 is converted to 4.0 before the two numbers are added
@@ -25,7 +25,7 @@ This doesn't work in every situation though.
 result = "The answer is " + 6 # this raises an error
 ```
 
-Coersion can also happen on operations that take one value, such as the boolean operator `not`.
+Coercion can also happen on operations that take one value, such as the boolean operator `not`.
 
 ### Boolean Casting
 
