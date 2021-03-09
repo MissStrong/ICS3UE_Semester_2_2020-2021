@@ -49,7 +49,7 @@ In order to put any of the following special characters in a string, you need to
 
 A **type conversion** occurs when a value is changed into a value of a different but compatible type. 
 
-**Casting** involves using a function to change a variable's data type. In Python, you do this by wrapping the variable in parentheses and placing either `int`or `str` in front.
+**Casting** involves using a function to change a variable's data type. In Python, you do this by wrapping the variable in parentheses and placing the name of the new data type in front.
 
 ```python
 num = int("6") # this changes the string "6" into the integer 6
@@ -86,7 +86,7 @@ Python has the following built-in mathematical operators. You can use them to ma
 | `/`      | `score = score / 5`  | Divides the value of `score` by 5 then takes the dividend.   |
 | `%`      | `score = score % 5`  | Divides the value of `score` by 5 then takes the remainder.  |
 | `+=`     | `score += 7`         | Adds 7 to the value of `score`.<br><br/>Essentially equivalent to `score = score + 7`. |
-| `-=`     | `score -= 2`         | Subtracts 2 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 2;. |
+| `-=`     | `score -= 2`         | Subtracts 2 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 2;`. |
 | `*=`     | `score *= 2`         | Multiplies the value of `score` by 2<br><br/> Essentially equivalent to `score = score * 2`. |
 | `//=`    | `score //= 2`        | Divides the value of `score` by 2.<br><br/>Essentially equivalent to `score = score // 2`. |
 | `**=`    | `score **= 2`        | Raises the value of `score` to the power of 2.<br><br/>Essentially equivalent to `score = score ** 2`. |
