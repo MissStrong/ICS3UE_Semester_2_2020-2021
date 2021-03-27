@@ -48,11 +48,11 @@ print(re.search("^H", "hello world"))  # prints None since there was no match
 
 The function `re.findall()` takes a pattern and a string and returns a list of all the substrings that match the pattern.
 
-In the example below, the pattern `[a-z]*at[a-z]*` matches lowercase words that contain `at` and the pattern `"[t|T]h"` matches `"th"` and `"Th"`.
+In the example below, the pattern `"[t|T]h"` matches `"th"` and `"Th"` and the pattern `[a-z]*at[a-z]*` matches lowercase words that contain `at`.
 
 ```python
 import re
 
-print(re.findall("[a-z]*at[a-z]*", "at that hat cat fog dog late"))  # prints ['at', 'that', 'hat', 'cat', 'late']
 print(re.findall("[t|T]h", "the Then that what other"))  # prints ['th', 'Th', 'th', 'th']
+print(re.findall("[a-z]*at[a-z]*", "at that hat cat fog dog late"))  # prints ['at', 'that', 'hat', 'cat', 'late']
 ```
