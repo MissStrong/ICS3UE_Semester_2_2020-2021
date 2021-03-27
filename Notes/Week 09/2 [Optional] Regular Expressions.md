@@ -48,7 +48,7 @@ print(re.search("^H", "hello world"))  # prints None since there was no match
 
 The function `re.findall()` takes a pattern and a string and returns a list of all the substrings that match the pattern.
 
-In the example below, the pattern `[a-z]*at[a-z]*` matches lowercase words that contain `at` and the pattern "[^a-z]th[a-z]*"
+In the example below, the pattern `[a-z]*at[a-z]*` matches lowercase words that contain `at` and the pattern `"[t|T]h"` matches `"th"` and `"Th"`.
 
 ```python
 import re
