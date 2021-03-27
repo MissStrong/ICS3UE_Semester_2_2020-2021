@@ -32,4 +32,27 @@ N.B.: The `^` and `$` metacharacters work best for text files. They are iffy in 
 
 ### Regular Expressions in Python
 
-Python has a module called `re` that implements regular expressions. You can `import` it to get access to functions such as `re.search()`, `re.match()`, and `re.split()` You can read about these functions in the [official Python documentation](https://docs.python.org/3/library/re.html).
+Python has a module called `re` that implements regular expressions. You can `import` it to get access to functions such as `re.search()` and `re.findall()`.
+
+The function `re.search()` takes a pattern and a string and returns a `Match` object if there is match and `None` otherwise. 
+
+In the example below, the string `"hello world"` matches the pattern `"^h"` since it begins with `h` but it does not match the pattern `"^H"` since it doesn't begin with `H`.
+
+```python
+import re
+
+print(re.search("^h", "hello world"))  # prints a Match object
+print(re.search("^H", "hello world"))  # prints None since there was no match
+
+```
+
+The function `re.findall()` takes a pattern and a string and returns a list of all the substrings that match the pattern.
+
+In the example below, the pattern `[a-z]*at[a-z]*` matches lowercase words that contain `at` and the pattern "[^a-z]th[a-z]*"
+
+```
+import re
+
+print(re.findall("[a-z]*at[a-z]*", "at that hat cat fog dog late"))  # prints ['at', 'that', 'hat', 'cat', 'late']
+print(re.findall("[t|T]h", "the Then that what other"))  # prints ['th', 'Th', 'th', 'th']
+```
