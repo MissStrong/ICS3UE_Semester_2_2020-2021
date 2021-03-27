@@ -28,3 +28,8 @@ For example, you can use regular expressions to find patterns in Google Docs. Th
 Tip: The regular expression `.*` matches any sequence of characters.
 
 N.B.: The `^` and `$` metacharacters work best for text files. They are iffy in binary document files such as .docx and .xlsx.
+
+
+### Regular Expressions in Python
+
+Python has a module called `re` that implements regular expressions. You can `import` it to get access to functions such as `re.search()`, `re.match()`, and `re.split()` You can read about these functions in the [official Python documentation](https://docs.python.org/3/library/re.html).
