@@ -50,7 +50,7 @@ The function `re.findall()` takes a pattern and a string and returns a list of a
 
 In the example below, the pattern `[a-z]*at[a-z]*` matches lowercase words that contain `at` and the pattern "[^a-z]th[a-z]*"
 
-```
+```python
 import re
 
 print(re.findall("[a-z]*at[a-z]*", "at that hat cat fog dog late"))  # prints ['at', 'that', 'hat', 'cat', 'late']
