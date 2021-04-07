@@ -28,7 +28,7 @@ To add items to a set, we can use `.add()`. To remove items from a set, we can u
 numbers = {1, 4, 7, 12, 19}
 
 numbers.add(5)  # adds 5 to the set
-numbers.add(7)  # doesn't do anything since 7 is alredy in the set
+numbers.add(7)  # doesn't do anything since 7 is already in the set
 numbers.remove(12)  # removes 12 from the set
 
 print(numbers)  # prints {1, 4, 5, 7, 19} (the order could be different)
