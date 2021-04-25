@@ -4,7 +4,7 @@ There are three programming methodologies: **sequential programming**, **procedu
 
 * Sequential programming involves executing a program line-by-line, in order.
 * Procedural programming involves calling functions that perform routines and can be called at any point in a program.
-* Object-oriented programming (OOP) is a programming methodology that involves separating a program into separate modules (e.g. files).
+* Object-oriented programming (OOP) is a programming methodology that involves separating a program into separate modules (e.g. files or classes).
 
 You have been using all three methodologies in this course. OOP has the highest potential among them all when creating complex programs. 
 
