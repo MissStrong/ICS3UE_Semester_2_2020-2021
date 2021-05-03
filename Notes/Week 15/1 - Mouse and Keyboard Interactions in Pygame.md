@@ -82,6 +82,7 @@ We may also want to hold down a key and have something happen as long as they ke
 position = [0, 0]
 
 while True:
+  for event in pygame.event.get():
     pressed_keys = pygame.key.get_pressed()
     if pressed_keys[pygame.K_LEFT]:
       # Moves the position 1 pixel left
