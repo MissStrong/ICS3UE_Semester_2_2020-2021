@@ -16,10 +16,10 @@ secret_number = 2
 while True:
   number = int(input("Guess the secret number: "))
   if number == secret_number:
-  	print("Nice job!")
+    print("Nice job!")
     break
   else:
-  	print("Nope. Try again")
+    print("Nope. Try again")
 ```
 
 A *while loop* does the following.
@@ -57,7 +57,7 @@ Here is an example of a nested loop.
 ```python
 for i in range(10):
   for j in range(10):
-  	print(i, j)
+    print(i, j)
 ```
 
 In this example, the for loop that iterates on `i` would be referred to as the **outer loop**, and the for loop that iterates on `j` would be referred to as the **inner loop**.
@@ -71,7 +71,5 @@ If a condition is never reached, a loop may run indefinitely with no end in sigh
 
 ```python
 while 1 == 1:
-    print("Hello!") # repeats indefinitely since the condition is always true and there is no break
-
+  print("Hello!") # repeats indefinitely since the condition is always true and there is no break
 ```
-
