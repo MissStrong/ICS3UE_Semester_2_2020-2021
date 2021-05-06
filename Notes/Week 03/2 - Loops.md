@@ -10,6 +10,7 @@ If you wanted to repeat specific lines of code a specific number of times, or un
 You would generally use a *while loop* when you know how to tell when the block of code should stop being running repeatedly.
 
 Here is an example of a *while loop*.
+
 ```python
 secret_number = 2
 
@@ -35,6 +36,7 @@ In the example above the loop keeps running until the user correstly guesses the
 You would generally use a *for loop* when you know how many times you want the block of code to run.
 
 Here is an example of a *for loop*.
+
 ```python
 for number in range(10):
   print(number)
@@ -54,13 +56,14 @@ The keyword `continue` is slightly less controversial, but again, I am okay with
 A loop that is placed inside another loop is called a **nested loop**.
 
 Here is an example of a nested loop.
+
 ```python
 for i in range(10):
   for j in range(10):
     print(i, j)
 ```
 
-In this example, the *for* loop that iterates on `i` would be referred to as the **outer loop**, and the for loop that iterates on `j` would be referred to as the **inner loop**.
+In this example, the *for loop* that iterates on `i` would be referred to as the **outer loop**, and the for loop that iterates on `j` would be referred to as the **inner loop**.
 
 If you had a loop inside of a loop, which is already inside another loop, there would be two levels of inner loops.
 
