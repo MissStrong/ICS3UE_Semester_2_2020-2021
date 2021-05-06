@@ -60,7 +60,7 @@ for i in range(10):
     print(i, j)
 ```
 
-In this example, the for loop that iterates on `i` would be referred to as the **outer loop**, and the for loop that iterates on `j` would be referred to as the **inner loop**.
+In this example, the *for* loop that iterates on `i` would be referred to as the **outer loop**, and the for loop that iterates on `j` would be referred to as the **inner loop**.
 
 If you had a loop inside of a loop, which is already inside another loop, there would be two levels of inner loops.
 
